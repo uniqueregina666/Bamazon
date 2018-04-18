@@ -5,9 +5,9 @@ var inquirer = require('inquirer');
 // Create a SQl connection via node using server and daatabase credentials created in mySQL
 var connection = mysql.createConnection({
     host: "localhost",
-    port: 3306,
+    port: 8889,
     user: "root",
-    password: "password",
+    password: "root",
     database: "bamazon"
 })
 
