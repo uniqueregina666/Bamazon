@@ -11,10 +11,10 @@ var connection = mysql.createConnection({
     database: "bamazon"
 })
 
-// Connect to the database and create a function that runs the "displayProducts()" function which contains all the products organized in a table
+// Connect to the database
 connection.connect(function(err) {
     if (err) throw err;
-    displayProducts();
+
 })
 
 // validateInput makes sure that the user is supplying only positive integers for their inputs
